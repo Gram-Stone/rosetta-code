@@ -1,11 +1,11 @@
 function idMatrix(n) {
     var matrix = [];
     for (var i = 1; i <= n; i++) {
-        var arr = [];
+        var row = [];
         for (var j = 1; j <= n; j++) {
-            (i == j) ? arr.push(1) : arr.push(0);
+            (i == j) ? row.push(1) : row.push(0);
         }
-        matrix.push(arr);
+        matrix.push(row);
     }
     return matrix;
 }
