@@ -1,6 +1,6 @@
 function genFizzBuzz(rules, num) {
-    var myArray = [];
-    for (var i = 0; i < rules.length; i++) {
+    const myArray = [];
+    for (let i = 0; i < rules.length; i++) {
         if (num % rules[i][0] == 0){
             myArray.push(rules[i][1])
         }
